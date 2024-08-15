@@ -1,0 +1,192 @@
+html, body {
+margin: 0;
+padding: 0;
+}
+
+body{
+	background-color: rgb(50, 50, 50);
+	min-height: 100vh;
+	font-family: Bahnschrift;
+}
+
+#sideBar{
+	display: flex;
+	justify-content: space-around;
+	padding: 32px 0% 5% 0%;
+	align-items: center;
+	flex-direction: column;
+	position: fixed;
+	left: 0;
+    top:0;
+	height: 100%;
+	background-color: rgb(80, 80, 80);
+	background: linear-gradient(to right, rgba(80,80,80, 1), rgba(80,80,80,0.0));
+	width: 15%;	
+}
+
+#sideBar a{
+text-decoration: none;
+color: white;
+font-size: 20px;
+}
+
+#sideBar a:hover{
+ transform: translateX(-5px);
+ transition: 0.4s;
+}
+
+#preOrderbutton{
+    border: solid 0px; 
+	color: white;
+	border-radius: 30px;
+	margin-left:2%;
+	margin-top:20px;
+	margin-bottom:20px;
+    height: 65px;
+    width: 200PX;
+    margin-right:2%;
+	background-color: rgb(106, 250, 20);  
+}
+
+#content{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+}
+
+#scrollingBar{
+	background: linear-gradient(to right, rgb(157, 222, 243), rgb(106, 250, 20), rgb(157, 222, 243));
+	opacity: 1;
+	width: 100%;
+	display: flex;
+	color:white;
+	justify-content: space-around;
+}
+
+#hero{
+display: flex;
+justify-content: space-around;
+padding: 0, 0, 0, 0;
+background-image: url(ssette.png);
+background-repeat: no-repeat;
+height: 760px;
+width: 100%;
+}
+
+#orderField{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin: 10% 0px 10% 0px;
+	padding:0px 40% 0px 40%;
+}
+
+#orderField img{
+	cursor: pointer;
+	margin:5%;
+}
+
+#rightBar{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	position: fixed;
+	right: 0;
+	top:0;
+	height: 100%;
+	background-color: rgb(80, 80, 80);
+	background: linear-gradient(to left, rgba(50,50,50, 1), rgba(80,80,80,0.0));
+	width: 20%;  
+}
+
+#bottomLogo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+#footer{
+	
+	bottom: 0;
+    font-size: 17px;
+	color: white;
+	padding-left: 15%;
+	padding-right: 10%;
+	box-sizing: border-box;
+	min-height: 300px;
+	width:100%;
+	margin-top:10px 0;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	align-content: space-between;
+	background-color: rgba(20, 20, 20, 0.7);
+	justify-content: space-around;
+	overflow: hidden;
+	
+}
+
+#footer a{
+	text-decoration: none;
+	color: inherit;
+}
+
+#footer span{
+	display: flex;
+flex-direction: column;	
+}
+
+input {
+    
+    display: flex;
+    background-position: calc(100% - 10px) center;  
+    height: 30px;
+    width: 200px;
+    border: 1px solid  #9c9c9c; 
+	border-radius: 15px;
+	background-color: rgba(0, 0, 0, 0);
+	background-image: url('search-btn.svg');
+	background-repeat: no-repeat;
+	color: #9c9c9c;
+	}
+
+#order{
+	font-size: 100px;
+	color:white;
+	mix-blend-mode:overlay;
+	position: absolute;
+	font-family: bahnschrift;
+	cursor: pointer;
+}
+
+#preOrderButton:hover{
+	 height: 80px;
+    width: 230PX;
+    border-radius: 40px;
+    transition: 0.4s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
